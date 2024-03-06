@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        var pd1="apple";
+        var  pd2="banana";
+        document.write("The first fruit is "+pd1+"<br/>"+" the second one is "+pd2);
+    </script> -->
+
+    <!-- <script>
+        var pdid,pdname;
+        pdid=prompt("Please enter a number for ID");
+        pdname=prompt("please enter your name");
+        
+        document.write("ID:"+pdid+" Name:"+pdname);
+    </script> -->
+
+    <!-- <p id="d1"></p>
+    <script>
+        var a=1;
+        var b=2;
+        if(a==b)
+        {
+        document.getElementById("d1").innerHTML="True"
+}
+    else{
+        document.getElementById("d1").innerHTML="False"
+    }
+
+    </script> -->
+    <!-- 
+    <div class="exam"><p>Welcome to js</p></div>
+    <div class="exam1"><p>Welcome to js</p></div>
+
+    <script>
+        const c = document.getElementsByClassName("exam");
+        c[0].style.backgroundColor = "red";
+        c[1].style.display = "none";
+    </script> -->
+    <!-- <label>firstname:</label>
+    <input type="text" id="firstname" name="fname"><br>
+    <label>password:</label>
+    <input type="text" name="pass" id="password"><br>
+    <input type="submit" value="login">
+    <p id="d1"></p>
+    <script>
+       const e=document.getElementsByName("d1").innerHTML=e[0].tagname;
+    </script> -->
+
+
+    <p>An unordered list</p>
+    <ul>
+        <li>List1</li>
+        <li>List2</li>
+        <li>List3</li>
+    </ul>
+    <p>A nested ordered list</p>
+    <p id="d1"></p>
+    <script>
+        const c = document.getElementsByTagName("li");
+        let text = "";
+
+        for (let i = 0; i < c.length; i++) {
+            text += c[i].tagName + "<br/>"
+        }
+        document.getElementById("d1").innerHTML = text;
+
+    </script>
+</body>
+
+</html>
